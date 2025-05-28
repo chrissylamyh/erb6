@@ -3,7 +3,7 @@ from django.urls import reverse
 from django.http import HttpResponse
 # Create your views here.
 def index(request):
-    pages_url = reverse('pages:index')
+    #pages_url = reverse('pages:index')
     return render(request,'pages/index.html')
 
 def about(request):
